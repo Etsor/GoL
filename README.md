@@ -12,11 +12,11 @@ You can save configuration to
 a file (without an extension), and load it later. Or create your own in this format:
 ```
 400
-200,200,0
-201,201,0
-202,201,0
-202,200,0
-202,199,0
+20,20,0
+21,21,0
+22,21,0
+22,20,0
+22,19,0
 
 ```
 
