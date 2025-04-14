@@ -8,5 +8,6 @@ and the terrible project structure
 
 #### or build it yourself: ```run.bat``` for Windows or ```run.sh``` for Linux/macOS
 
+![gif_example](images/example.gif)
 ![screenshot 1](images/image.png)
 ![screenshot 2](images/image2.png)
