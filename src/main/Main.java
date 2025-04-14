@@ -178,10 +178,10 @@ public class Main extends JFrame {
 
             clearButton.addActionListener(e -> {
                 Cell[][] grid = panel.getBoard();
-                for (int i = 0; i < grid.length; i++) {
-                    for (int j = 0; j < grid[i].length; j++) {
-                        grid[i][j].setAlive(false);
-                        grid[i][j].resetAge();
+                for (Cell[] cells : grid) {
+                    for (Cell cell : cells) {
+                        cell.setAlive(false);
+                        cell.resetAge();
                     }
                 }
                 panel.repaint();

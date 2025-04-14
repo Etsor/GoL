@@ -21,6 +21,7 @@ public class FileManager {
                     }
                 }
             }
+
         } catch (IOException ex) {
             ex.printStackTrace();
         }
@@ -49,6 +50,7 @@ public class FileManager {
             }
             
             return board;
+
         } catch (IOException ex) {
             ex.printStackTrace();
             return null;
