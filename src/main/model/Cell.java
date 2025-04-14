@@ -1,7 +1,10 @@
 package main.model;
+
+import java.io.Serial;
 import java.io.Serializable;
 
 public class Cell implements Serializable {
+    @Serial
     private static final long serialVersionUID = 1L;
     
     private boolean alive;
@@ -13,7 +16,7 @@ public class Cell implements Serializable {
     }
 
     public boolean isAlive() {
-        return alive;
+        return this.alive;
     }
 
     public void setAlive(boolean alive) {
@@ -21,15 +24,11 @@ public class Cell implements Serializable {
     }
 
     public int getAge() {
-        return age;
+        return this.age;
     }
 
     public void setAge(int age) {
         this.age = age;
-    }
-
-    public void toggle() {
-        alive = !alive;
     }
 
     public void incrementAge() {
@@ -37,6 +36,6 @@ public class Cell implements Serializable {
     }
 
     public void resetAge() {
-        age = 0;
+        this.age = 0;
     }
 }

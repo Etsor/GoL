@@ -39,35 +39,23 @@ public class Board {
                 newCell.setAge(currentCell.getAge());
 
                 if (currentCell.isAlive()) {
-                    
                     if (neighbors < minNeighbors || neighbors > maxNeighbors) {
-                    
                         newCell.setAlive(false);
                         newCell.resetAge();
-                    
                     } else {
-                    
                         newCell.setAlive(true);
                         newCell.setAge(currentCell.getAge());
                         newCell.incrementAge();
-                    
                     }
-                    
                 } else {
-                    
                     if (neighbors == maxNeighbors) {
-                    
                         newCell.setAlive(true);
                         newCell.resetAge();
-                    
                     } else {
-                    
                         newCell.setAlive(false);
                         newCell.resetAge();
-                    
                     }
                 }
-    
                 nextBoard[x][y] = newCell;
             }
         }
@@ -90,7 +78,7 @@ public class Board {
                 if (new_x >= 0 && new_x < board.length
                 && new_y >= 0 && new_y < board.length) {
                     Cell cell = board[new_x][new_y];
-                    if(cell.isAlive()) {
+                    if (cell.isAlive()) {
                         neighbors++;
                     }
                 }
