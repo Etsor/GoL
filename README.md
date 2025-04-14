@@ -20,7 +20,7 @@ a file (without an extension), and load it later. Or create your own in this for
 
 ```
 
-where ```400``` is default field size, ```200,000,0``` is ```x,y,age```, coordinates and age of each cell
+where ```400``` is default field size, ```20,20,0``` is ```x,y,age```, coordinates and age of each cell
 
 ![screenshot 1](images/image.png)
 ![screenshot 2](images/image2.png)
