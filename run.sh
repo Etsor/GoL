@@ -12,6 +12,6 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "Creating JAR..."
-jar cfm GameOfLife.jar manifest.txt -C out .
+jar cfm GoL.jar manifest.txt -C out .
 
-echo "Done! Run with: java -jar GameOfLife.jar"
+echo "Done! Run with: java -jar GoL.jar"
