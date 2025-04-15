@@ -1,5 +1,4 @@
 # Yet Another Version of Conway's Game of Life
-### ...in Java. With a GUI.
 *even with ***buttons***.*
 
 and the terrible project structure
