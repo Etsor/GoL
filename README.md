@@ -5,7 +5,7 @@ and the terrible project structure
 
 ### just open ```GoL.jar```
 
-#### or build it yourself: ```run.bat``` for Windows or ```run.sh``` for Linux/macOS
+#### or build it yourself: ```build.bat``` for Windows or ```build.sh``` for Linux/macOS
 
 You can save configuration to
 a file (without an extension), and load it later. Or create your own in this format:
